@@ -1,0 +1,294 @@
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    margin: 0 auto 0 auto;
+    background: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.dropdown-menu {
+    background: transparent;
+}
+
+.dropdown-menu a {
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+footer {
+    border-top: 1px solid rgb(199, 199, 199);
+    position: relative;
+    text-decoration: none;
+}
+
+h1,
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font-size: 58px;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+h3 {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+img {
+    height: 450px;
+}
+
+.peti {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+#background {
+    height: 500px;
+    background: linear-gradient(600deg, rgb(0, 58, 92), rgb(111, 195, 216));
+    color: white;
+    display: block;
+}
+
+#info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    word-spacing: 20px;
+}
+
+#info a:nth-child(2) {
+    word-spacing: 0px;
+}
+
+#info a {
+    color: white;
+}
+
+#info a:hover {
+    text-shadow: 0 0 10px white;
+}
+
+#copy {
+    position: absolute;
+    color: grey;
+}
+
+.p-head a {
+    color: white;
+}
+
+#p-content {
+    display: inline-block;
+    width: 520px;
+    position: absolute;
+    top: 50px;
+}
+
+#p-content p {
+    margin-bottom: 30px;
+}
+
+#phone {
+    width: 280px;
+    position: absolute;
+    top: 34px;
+    left: -20px;
+}
+
+#social {
+    position: absolute;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    top: 0;
+    color: grey;
+    word-spacing: 10px;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+    text-decoration: none;
+}
+
+.fa-facebook-f:hover {
+    color: #4867AA;
+}
+
+.fa-youtube:hover {
+    color: #FF0000;
+}
+
+.fa-dribbble:hover {
+    color: #DF3E7B;
+}
+
+.fa-vimeo-v:hover {
+    color: #172322;
+}
+
+#loginModalP:hover {
+    cursor: pointer;
+    color: black;
+}
+
+/* Modal Login */
+
+.modal-content {
+    background: transparent;
+}
+
+.modal-body {
+    background: transparent;
+    padding: 0;
+}
+
+#center {
+    position: relative;
+    margin: 0 0;
+    left: 0px;
+    width: 598px;
+    background: linear-gradient(600deg, rgb(0, 58, 92), rgba(111, 195, 216, 0.747));
+    border-radius: 10px;
+}
+
+#center:hover {
+    background: linear-gradient(600deg, rgb(0, 58, 92), rgb(111, 195, 216));
+}
+
+#border {
+    position: relative;
+    left: 130px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 340px;
+    padding: 50px;
+}
+
+#username {
+    height: 30px;
+    width: 245px;
+    border: none;
+    border-radius: 2px;
+}
+
+#password {
+    height: 30px;
+    width: 245px;
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 2px;
+}
+
+#login {
+    height: 30px;
+    width: 245px;
+    border: none;
+    text-align: center;
+    color: white;
+    background: rgb(67, 150, 170);
+    font-size: 12px;
+}
+
+.login::before {
+    font-weight: 900;
+    content: "\f007";
+}
+
+input {
+    margin: 4px;
+    font-size: 16px;
+    padding-left: 10px;
+    box-shadow: 0 0 0 white;
+    transition: box-shadow .6s;
+}
+
+input:hover {
+    box-shadow: 0 0 20px white;
+}
+
+input:nth-child(7):hover {
+    box-shadow: 0 0 0 white;
+}
+
+a:hover {
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+#copy-2 {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    left: 160px;
+    color: white;
+}
+
+#icon-2 {
+    width: 100px;
+    height: 100px;
+    background: rgb(67, 150, 170);
+    position: relative;
+    border-radius: 50px;
+    top: 50px;
+    left: 245px;
+    margin: 0;
+    box-shadow: 0 0 0 white;
+    transition: box-shadow 1s;
+    z-index: 100;
+}
+
+#icon-2:hover {
+    cursor: pointer;
+    box-shadow: 0 0 25px white;
+}
+
+#icon-3 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    width: 60px;
+    height: 60px;
+}
+
+.fa-lg {
+    font-size: 60px;
+}
+
+span {
+    color: red;
+}
+
+p {
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+}
+
+input:hover {
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+#userIcon {
+    position: relative;
+    top: 30px;
+    left: 230px;
+    color: grey;
+}
+
+#passwordIcon {
+    position: relative;
+    top: 30px;
+    left: 230px;
+    color: grey;
+}

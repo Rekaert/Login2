@@ -1,0 +1,91 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1,
+h3,
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+a {
+    font-family: 'Nunito', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+address {
+    font-family: 'Nunito', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+strong {
+    color: #000;
+}
+
+label {
+    font-family: 'Nunito', sans-serif;
+}
+
+button {
+    border-radius: 20px;
+}
+
+.container2 {
+    position: absolut;
+    top: 70px;
+}
+
+.container2 address:hover {
+    color: #0d3f59;
+    text-shadow: 4px 4px 4px;
+}
+
+#social {
+    position: absolute;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    top: 0;
+    color: grey;
+    word-spacing: 10px;
+    z-index: 1;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+    text-decoration: none;
+}
+
+.fa-facebook-f:hover {
+    color: #4867AA;
+}
+
+.fa-youtube:hover {
+    color: #FF0000;
+}
+
+.fa-dribbble:hover {
+    color: #DF3E7B;
+}
+
+.fa-vimeo-v:hover {
+    color: #172322;
+}
+
+#loginModalP:hover {
+    cursor: pointer;
+    color: black;
+}
